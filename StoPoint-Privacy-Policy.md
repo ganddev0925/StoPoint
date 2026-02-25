@@ -3,7 +3,7 @@
 **Effective Date:** February 25, 2026
 
 ### 1. Our Story and Promise
-StoPoint was not built by a massive corporation; it was created by a solo developer. The app was originally designed as a personal tool to track our son's therapy classes—which happened several times a week—and calculate the time and costs associated with them. 
+StoPoint was not built by a massive corporation; it was created by a solo developer. The app was originally designed as a personal tool to track our child's (special needs) therapy classes—which happened several times a week—and calculate the time and costs associated with them. 
 
 **Our Mission:** We know firsthand how expensive therapies and specialized care can be for families. Because of this, StoPoint is intentionally designed to be a "Zero Cost" app. There are no subscriptions, no ads, and no data-selling. We believe that a tool meant to help you manage your life shouldn't be another financial burden.
 
