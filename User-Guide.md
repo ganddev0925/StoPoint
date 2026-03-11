@@ -1,4 +1,4 @@
-# 📍 StoPoint: The Ultimate User Guide (Updated 2026)
+# 📍 StoPoint: The Ultimate User Guide
 
 Welcome to **StoPoint**, your local-first, privacy-focused visit tracker. Designed for busy routines and complex schedules, StoPoint automatically logs where you went, how long you stayed, and your expenses. This guide walks you through setting up the app, adding your essential locations, and exporting professional reports—all without ever sending your sensitive data to a cloud server.
 
@@ -10,7 +10,7 @@ For StoPoint to automatically log your visits while your hands are full, it need
 *   **Location Access:** When prompted, select **“Allow all the time.”** This ensures StoPoint detects your arrivals and exits even when your phone is locked or in your pocket.
 *   **Physical Activity Permission (NEW):** To optimize battery life and accuracy, StoPoint requires access to your physical activity. This allows the app to know when you are moving versus stationary (**Smart Silence**), preventing "GPS drift" from logging fake visits while you are sitting still.
 *   **Battery Optimization:** Go to your phone’s *Settings > Apps > StoPoint > Battery* and select **“Unrestricted”**. This prevents Android from "killing" the app while it's waiting for you to arrive.
-*   **Platinum Guard (Direct Boot):** StoPoint is built for reliability. It will resume tracking automatically after your phone reboots, even before you unlock your device.
+*   **Auto restart of tracking after a phone restarts (power off and power on):** StoPoint is built for reliability. It will resume tracking automatically after your phone reboots, even before you unlock your device.
 
 ---
 
@@ -23,10 +23,10 @@ Your Home Screen is your “Mission Control.” Here is how to set up your first
     *   *Tip:* If your new place overlaps with an existing one (e.g., a Coffee Shop inside a Mall), tap **Smart Fit**. StoPoint will prioritize logging the smaller radius so you get credited for the exact shop, not just the general area.
 4.  **Save your location.**
 
-**Understanding “Titanium Geofencing”**
+**Understanding "Geofencing"**
 StoPoint uses a sophisticated dual-zone system to prevent accidental logs if you are just driving by:
 *   **Outer Zone:** Detects when you pull into the parking lot and "wakes up" the tracking sensors.
-*   **Inner Zone (Dwell Time):** The visit officially “starts” only after you have stayed for your set Dwell Time (default is 15 minutes).
+*   **Inner Zone (Dwell Time or amount of time you are at a location):** The visit officially “starts” only after you have stayed for your set Dwell Time (default is 15 minutes).
 
 ---
 
@@ -60,7 +60,7 @@ Tap any saved place or map marker to open the **Place Options** menu. From here,
 ---
 
 ### 🤖 5. Scanning Receipts & Logging Costs
-Stop typing out expenses manually. StoPoint features a powerful, on-device document scanner.
+Stop typing out expenses manually. StoPoint features a powerful, on-device document scanner (English only).
 
 1.  Open a logged visit and tap the **Scan Receipt** icon.
 2.  Take a photo of your receipt or invoice.
