@@ -1,5 +1,5 @@
 # Privacy Policy for StoPoint
-**Effective Date:** March 11, 2026
+**Effective Date:** March 9, 2026
 
 ---
 
@@ -49,7 +49,7 @@ We use industry-standard tools to provide core app functionality. These services
 | :--- | :--- | :--- |
 | **Google Play Services** | Powering the on-device Geofencing and Activity Recognition APIs. | [Google Privacy Policy](https://policies.google.com/privacy) |
 | **Google Maps SDK** | Map display and place searching. | [Google Privacy Policy](https://policies.google.com/privacy) |
-| **Google Play Billing** | Voluntary "Buy me a coffee" donations. | [Google Privacy Policy](https://policies.google.com/privacy) |
+| **Google Play Billing** | Voluntary "Buy me a coffee" tips and support. All payment processing is managed securely by Google; we never see, process, or store your payment or financial details. | [Google Privacy Policy](https://policies.google.com/privacy) |
 
 ---
 
