@@ -1,5 +1,5 @@
 # Privacy Policy for StoPoint
-**Effective Date:** March 9, 2026
+**Effective Date:** March 11, 2026
 
 ---
 
@@ -38,6 +38,7 @@ Privacy is our foundational principle. StoPoint **does not** collect, harvest, o
 * **100% Local:** We do not own or operate cloud servers. Your database is stored strictly on your phone.
 * **Encryption:** Your local database utilizes Android’s built-in storage encryption.
 * **No Cloud Sync:** Because there is no cloud, nobody—including the developer—can access, see, or recover your data. You are the sole owner of your information.
+* **Internet Usage (Maps & Search):** StoPoint requires Internet access solely for the Google Maps SDK to display map tiles and perform address searches. **No personal tracking data, visit history, or receipt images are ever transmitted over this connection.** All tracking logic remains strictly local.
 
 ---
 
@@ -46,6 +47,7 @@ We use industry-standard tools to provide core app functionality. These services
 
 | Service | Purpose | Privacy Link |
 | :--- | :--- | :--- |
+| **Google Play Services** | Powering the on-device Geofencing and Activity Recognition APIs. | [Google Privacy Policy](https://policies.google.com/privacy) |
 | **Google Maps SDK** | Map display and place searching. | [Google Privacy Policy](https://policies.google.com/privacy) |
 | **Google Play Billing** | Voluntary "Buy me a coffee" donations. | [Google Privacy Policy](https://policies.google.com/privacy) |
 
@@ -54,6 +56,7 @@ We use industry-standard tools to provide core app functionality. These services
 ## 5. Advertisements and Tracking
 * **Zero Ads:** StoPoint is completely ad-free. We do not host or display third-party advertisements.
 * **Zero Tracking:** We do not monitor your behavior, record your app usage patterns, or use third-party analytics services to track your activity.
+* **No Analytics / No Telemetry:** We do not use Firebase Analytics, Crashlytics, Sentry, or any other telemetry tools. We have no way of knowing how you use the app or where you go. Your crashes and usage patterns are your own.
 
 ---
 
