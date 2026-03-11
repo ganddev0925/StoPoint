@@ -1,4 +1,4 @@
-# 📍 StoPoint: The Ultimate User Guide
+# 📍 StoPoint: The Ultimate User Guide (Updated 2026)
 
 Welcome to **StoPoint**, your local-first, privacy-focused visit tracker. Designed for busy routines and complex schedules, StoPoint automatically logs where you went, how long you stayed, and your expenses. This guide walks you through setting up the app, adding your essential locations, and exporting professional reports—all without ever sending your sensitive data to a cloud server.
 
@@ -23,7 +23,7 @@ Your Home Screen is your “Mission Control.” Here is how to set up your first
     *   *Tip:* If your new place overlaps with an existing one (e.g., a Coffee Shop inside a Mall), tap **Smart Fit**. StoPoint will prioritize logging the smaller radius so you get credited for the exact shop, not just the general area.
 4.  **Save your location.**
 
-**Understanding “Geofencing”**
+**Understanding “Titanium Geofencing”**
 StoPoint uses a sophisticated dual-zone system to prevent accidental logs if you are just driving by:
 *   **Outer Zone:** Detects when you pull into the parking lot and "wakes up" the tracking sensors.
 *   **Inner Zone (Dwell Time):** The visit officially “starts” only after you have stayed for your set Dwell Time (default is 15 minutes).
@@ -42,6 +42,7 @@ Never forget to log a copay or therapy cost again.
 ### 🔍 3. Finding & Categorizing Your Places
 As your list of saved locations grows, finding them is easy using the Category Rail at the top of your screen:
 
+*   **Live Tracking Hero:** When a visit is in progress, a "Live Tracking" card appears at the top of your dashboard. Tapping this gives you instant access to that location's options and history.
 *   **Smart Categories:** StoPoint automatically groups your places (e.g., Work, Gym, Food, Medical) using predictive, on-device logic based on the names you enter.
 *   **Favourites:** Pin your most visited spots for one-tap access.
 *   **Fuzzy Search:** If you misspell a clinic’s name in the search bar, our forgiving search engine will still find the closest match.
@@ -49,8 +50,9 @@ As your list of saved locations grows, finding them is easy using the Category R
 ---
 
 ### 📜 4. Tracking & Editing Your Visits
-Tap any saved place to view its complete visit history.
+Tap any saved place or map marker to open the **Place Options** menu. From here, you can select **View History** to see detailed logs, or **Navigate** to launch your GPS.
 
+*   **Adaptive Layout (NEW):** On tablets and foldable devices, StoPoint uses an **Adaptive Layout**, allowing you to keep your list of places visible on the left while managing options or history on the right.
 *   **Skeptical Exit Logic (NEW):** To prevent "WiFi Jumps" (where a weak signal makes it look like you left a building), StoPoint now uses a 2-minute verification period. It will double-check your GPS before officially closing a visit, significantly reducing false "exit-and-re-entry" logs.
 *   **Manual Entry & Edits:** Forgot your phone or had GPS turned off? You can easily manually log a missed visit or edit the start/end times of an existing one.
 *   **Notes & Attachments:** Add context to your logs. You can type detailed notes, attach photos, or link PDF reports (like medical summaries or receipts) directly to a specific visit.
@@ -82,7 +84,7 @@ When it is time to submit logs for work, insurance, or tax purposes, StoPoint ha
 ### 🚗 7. Android Auto Integration
 StoPoint goes where you go! 
 *   **In-Car View:** View your nearby places and recent visits directly on your car's dashboard.
-*   **Easy Navigation:** Tap any location on your car screen to launch your preferred navigation app.
+*   **Easy Navigation:** On your phone, simply tap a place and select **Navigate** from the Options sheet. On Android Auto, tapping a location launches navigation directly for driver safety.
 *   **Smart Silence:** Your car's head unit remains clutter-free as driving-related arrival chimes are suppressed automatically.
 
 ---
@@ -90,6 +92,7 @@ StoPoint goes where you go!
 ### 🛠️ 8. App Maintenance & Troubleshooting FAQ
 Modern Android versions are very aggressive about saving battery, which can sometimes interfere with automatic tracking.
 
+*   **Safety First:** Accidentally deleting a place is now impossible. StoPoint requires a secondary confirmation via a safety dialog before any location or its history is permanently removed.
 *   **Why are my visits not being logged?** The most common cause is Battery Optimization. **Fix:** Set StoPoint to **“Unrestricted”** in your phone's battery settings. 
 *   **Why is there a delay in logging when I arrive?** To save your battery, Android doesn’t check your location every second. Typically, there is a 2–3 minute delay. If you're driving, **Smart Silence** will also keep the app quiet until you've stayed for your Dwell Time.
 *   **What is “Self-Healing”?** Android occasionally “pauses” background apps. StoPoint’s Self-Healing feature runs a 24-hour check to gently wake up your geofences and ensure tracking remains reliable.
