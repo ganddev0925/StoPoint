@@ -1,5 +1,5 @@
 # Privacy Policy for StoPoint
-**Effective Date:** March 9, 2026
+**Effective Date:** March 11, 2026
 
 ---
 
@@ -16,7 +16,7 @@ Privacy is our foundational principle. StoPoint **does not** collect, harvest, o
 
 ### Location Data (Background Access)
 * **Purpose:** To automatically log visits, StoPoint requires "Allow all the time" location access. This allows the app to detect geofence transitions **even when the app is closed or not in use.**
-* **Processing:** Location triggers are handled by the device's Operating System. StoPoint only records the entry/exit time and the place name to your local database.
+* **Processing:** Location triggers are handled by the device's Operating System. StoPoint only records the entry/exit time and the place name to your local database. To maximize battery efficiency, we prioritize reusing recent location data already cached by the system (**Radio Discipline**) before requesting a new GPS radio wake-up.
 * **Platinum Guard (Direct Boot):** To ensure reliability after a phone reboot, a minimal, encrypted cache of geofence events may be stored in "Device Protected" storage until you first unlock your phone.
 
 ### Physical Activity Data (NEW)
@@ -61,7 +61,7 @@ We use industry-standard tools to provide core app functionality. These services
 ---
 
 ## 6. Data Retention and Deletion
-* **User Control:** You can delete individual visits, documents, or places at any time within the app.
+* **User Control:** You can delete individual visits, documents, or places at any time within the app. Disabling tracking for a location will automatically terminate and finalize any active visit log for that place to ensure no "ghost" data is recorded while you intend for tracking to be off.
 * **Full Wipe:** Uninstalling the app or "Clearing Data" in Android Settings will permanently delete all StoPoint data. **We cannot recover deleted data because we never had a copy.**
 * **Portability:** You can export your data at any time via the JSON Backup, CSV, or PDF features.
 
