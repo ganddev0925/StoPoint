@@ -14,12 +14,20 @@ For StoPoint to automatically log your visits while your hands are full, it need
 
 ---
 
+### 🆓 Why StoPoint is Free
+To keep StoPoint 100% free and without intrusive ads, we don't use paid services like Google Places Autocomplete. This allows us to provide advanced features like OCR receipt scanning and smart reminders at no cost to you. By using the methods below to add your places, you help keep the app independent and free for everyone!
+
+---
+
 ### 🏠 1. How to Add a New Place
 Your Home Screen is your “Mission Control.” Here is how to set up your first location (like a clinic, school, or gym) so StoPoint can start tracking it automatically.
 
 1.  Tap the **Floating Action Button (+)** or the **Add Location** icon in the search bar.
-2.  **Locate the Address:** Use the built-in search to find the address, or use **Manual Pin** by long-pressing and dragging the map to drop a pin exactly where you want it.
-3.  **Adjust the Radius:** Set the boundary around the location. 
+2.  **Locate the Address:**
+    *   **At the Site (Best Option):** Just go to the place and tap **"Pick This Spot"**. StoPoint will lock on to your GPS coordinates and handle the rest!
+    *   **Pan the Map:** Manually scroll and zoom the map to find your destination. The pin stays centered as you move, allowing you to position it exactly where you want it.
+    *   **Exact Address Search:** Enter the full street address in the search bar. StoPoint will find the exact match for you.
+3.  **Adjust the Radius:** Set the boundary around the location.
     *   *Tip:* If your new place overlaps with an existing one (e.g., a Coffee Shop inside a Mall), tap **Smart Fit**. StoPoint will prioritize logging the smaller radius so you get credited for the exact shop, not just the general area.
 4.  **Save your location.**
 
@@ -83,7 +91,7 @@ When it is time to submit logs for work, insurance, or tax purposes, StoPoint ha
 ---
 
 ### 🚗 7. Android Auto Integration
-StoPoint goes where you go! 
+StoPoint goes where you go!
 *   **In-Car View:** View your nearby places and recent visits directly on your car's dashboard.
 *   **Easy Navigation:** On your phone, simply tap a place and select **Navigate** from the Options sheet. On Android Auto, tapping a location launches navigation directly for driver safety.
 *   **Smart Silence:** Your car's head unit remains clutter-free as driving-related arrival chimes are suppressed automatically.
@@ -94,7 +102,7 @@ StoPoint goes where you go!
 Modern Android versions are very aggressive about saving battery, which can sometimes interfere with automatic tracking.
 
 *   **Safety First:** Accidentally deleting a place or disabling tracking while you are mid-visit is protected. StoPoint requires a secondary confirmation via a safety dialog before any location is permanently removed or tracking is stopped, ensuring you don't lose an active log by mistake.
-*   **Why are my visits not being logged?** The most common cause is Battery Optimization. **Fix:** Set StoPoint to **“Unrestricted”** in your phone's battery settings. 
+*   **Why are my visits not being logged?** The most common cause is Battery Optimization. **Fix:** Set StoPoint to **“Unrestricted”** in your phone's battery settings.
 *   **Radio Discipline (NEW):** To maximize battery life, StoPoint uses "Recency-First" logic. If another app (like Maps) recently got a GPS fix, we "piggyback" off that data instead of waking up the GPS radio ourselves.
 *   **Why is there a delay in logging when I arrive?** To save your battery, Android doesn’t check your location every second. Typically, there is a 2–3 minute delay. If you're driving, **Smart Silence** will also keep the app quiet until you've stayed for your Dwell Time.
 *   **What is “Self-Healing”?** Android occasionally “pauses” background apps. StoPoint’s Self-Healing feature runs a 24-hour check to gently wake up your geofences and ensure tracking remains reliable.
@@ -102,9 +110,9 @@ Modern Android versions are very aggressive about saving battery, which can some
 
 ---
 
-### 💾 9. Data & Backups
-Because StoPoint is offline-only, you own your data.
+### 💾 9. Data & Backups (StoPoint Vault)
+Because StoPoint is offline-only, you own your data. To keep your history safe when switching phones:
 
-*   **Full Backup:** Go to **Settings > Data & Storage** to export your entire database to an encrypted JSON file.
-*   **Restore:** If you get a new phone, simply import your backup file to pick up right where you left off.
+*   **Create Vault:** Go to **Settings > Automation & Data**. You can create a **"StoPoint Vault" (.spv)** which bundles your places, visits, app settings, and optionally your photo attachments into one secure file.
+*   **Restore:** On your new device, use **"Restore from Vault"** to pick up right where you left off. Everything, including your preferred theme and tracking accuracy, will be restored.
 *   **Privacy Guarantee:** StoPoint is a 100% local app. Your location, activity, visit history, and receipts are stored strictly on your device. We never see it, and it never goes to a server.
