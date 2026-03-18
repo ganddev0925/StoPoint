@@ -113,6 +113,8 @@ Modern Android versions are very aggressive about saving battery, which can some
 ### 💾 9. Data & Backups (StoPoint Vault)
 Because StoPoint is offline-only, you own your data. To keep your history safe when switching phones:
 
-*   **Create Vault:** Go to **Settings > Automation & Data**. You can create a **"StoPoint Vault" (.spv)** which bundles your places, visits, app settings, and optionally your photo attachments into one secure file.
+*   **Google Cloud Backup:** For maximum privacy, we've strictly **disabled** Google's Auto-Backup for Apps. No data is ever synced to Google's servers.
+*   **Device-to-Device Migration:** We have enabled **Device-to-Device transfer**. If you migrate to a new phone via direct cable or local WiFi during setup, your visits and settings will automatically move to your new device.
+*   **Create Vault:** Go to **Settings > Automation & Data**. You can create a **"StoPoint Vault" (.spv)** which bundles your places, visits, app settings, and optionally your photo attachments into one secure file. This is the most reliable way to save your logs for the long term.
 *   **Restore:** On your new device, use **"Restore from Vault"** to pick up right where you left off. Everything, including your preferred theme and tracking accuracy, will be restored.
 *   **Privacy Guarantee:** StoPoint is a 100% local app. Your location, activity, visit history, and receipts are stored strictly on your device. We never see it, and it never goes to a server.
