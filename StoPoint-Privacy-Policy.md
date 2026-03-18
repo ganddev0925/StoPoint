@@ -37,7 +37,8 @@ Privacy is our foundational principle. StoPoint **does not** collect, harvest, o
 ## 3. Data Storage and Security
 * **100% Local:** We do not own or operate cloud servers. Your database is stored strictly on your phone.
 * **Encryption:** Your local database utilizes Android’s built-in storage encryption.
-* **No Cloud Sync:** Because there is no cloud, nobody—including the developer—can access, see, or recover your data. You are the sole owner of your information.
+* **Selective Backup:** For maximum privacy, we have strictly **disabled Google Cloud Backup**. No application data, visits, or settings are ever synced to Google's servers. However, we have enabled **Device-to-Device transfer**, which allows your data to be migrated to a new phone during your initial setup (via direct cable or local WiFi).
+* **Vault Backups (.spv):** You can manually create a backup file containing your database, settings, and media. This file is generated locally and stored only where you choose. You are responsible for its security and sharing.
 * **Internet Usage (Maps & Search):** StoPoint requires Internet access solely for the Google Maps SDK to display map tiles and perform address searches. **No personal tracking data, visit history, or receipt images are ever transmitted over this connection.** All tracking logic remains strictly local.
 
 ---
@@ -62,8 +63,8 @@ We use industry-standard tools to provide core app functionality. These services
 
 ## 6. Data Retention and Deletion
 * **User Control:** You can delete individual visits, documents, or places at any time within the app. Disabling tracking for a location will automatically terminate and finalize any active visit log for that place to ensure no "ghost" data is recorded while you intend for tracking to be off.
-* **Full Wipe:** Uninstalling the app or "Clearing Data" in Android Settings will permanently delete all StoPoint data. **We cannot recover deleted data because we never had a copy.**
-* **Portability:** You can export your data at any time via the JSON Backup, CSV, or PDF features.
+* **Full Wipe:** Uninstalling the app or "Clearing Data" in Android Settings will permanently delete all StoPoint data. **We cannot recover deleted data because we never had a copy.** Note that because Google Cloud Backup is disabled, data will **not** be automatically restored from the cloud upon reinstallation.
+* **Device-to-Device Portability:** You can migrate your data to a new device via the direct Device-to-Device transfer during initial phone setup. You can also export your data at any time via the SPV Backup, CSV, or PDF features.
 
 ---
 
