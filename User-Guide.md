@@ -7,7 +7,7 @@ Welcome to **StoPoint**, your local-first, privacy-focused visit tracker. Design
 ### ⚙️ Step 0: Setup & Permissions (Why We Need Location)
 For StoPoint to automatically log your visits while your hands are full, it needs specific permissions to run in the background.
 
-*   **Location Access:** When prompted, select **“Allow all the time.”** This ensures StoPoint detects your arrivals and exits even when your phone is locked or in your pocket.
+*   **Location Access:** When prompted, select **“Allow all the time.”** StoPoint requires background location access to detect arrivals and exits even when the app is closed or not in use. This is used solely to automate your visit logbook locally on your device.
 *   **Physical Activity Permission:** To optimize battery life and accuracy, StoPoint requires access to your physical activity. This allows the app to know when you are moving versus stationary (**Smart Silence**), preventing "GPS drift" from logging fake visits while you are sitting still.
 *   **Battery Optimization:** Go to your phone’s *Settings > Apps > StoPoint > Battery* and select **“Unrestricted”**. This prevents Android from "killing" the app while it's waiting for you to arrive.
 *   **Tracking after phone restart or power off/on:** StoPoint is built for reliability. It will resume tracking automatically after your phone reboots, even before you unlock your device.
